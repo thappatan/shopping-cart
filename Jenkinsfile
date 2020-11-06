@@ -26,6 +26,7 @@ pipeline{
                 python3 -m venv env
                 source env/bin/activate
                 pip install -r requirements.txt
+                sleep 3
                 robot product.robot
                 deactivate'''
             }
