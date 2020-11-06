@@ -23,6 +23,6 @@
     python3 -m venv env
     source env/bin/activate
     pip install -r requirements.txt
-    robot greeting.robot
+    robot product.robot
     deactivate
  ```
