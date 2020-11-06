@@ -1,0 +1,6 @@
+test/api/env
+test/api/*.html
+test/api/*.xml
+
+jenkinshome
+jenkins.war
