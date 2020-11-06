@@ -22,11 +22,11 @@ pipeline{
         }
         stage('run api test robot'){
             steps{
-                sh label: 'docker-compose', script: '''cd test/api
+                sh label: 'robot-test', script: '''cd test/api
                 python3 -m venv env
                 source env/bin/activate
                 pip install -r requirements.txt
-                sleep 10
+                sleep 30
                 robot product.robot
                 deactivate'''
             }
