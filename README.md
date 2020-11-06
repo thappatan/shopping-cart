@@ -14,15 +14,15 @@
 - Start appilication
 
  ```sh
-     docker-compose up -d --build --force-recreate
+    docker-compose up -d --build --force-recreate
  ```
 - Run API test
 
-    ```sh
-        # cd test/api
-        python3 -m venv env
-        source env/bin/activate
-        pip install -r requirements.txt
-        robot greeting.robot
-        deactivate
-    ```
+ ```sh
+    # cd test/api
+    python3 -m venv env
+    source env/bin/activate
+    pip install -r requirements.txt
+    robot greeting.robot
+    deactivate
+ ```
